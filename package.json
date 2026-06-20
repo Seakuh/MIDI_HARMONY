@@ -1,0 +1,25 @@
+{
+  "name": "harmonie",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Echtzeit-Controller für ein harmonisches Frequenzsystem über Korg nanoKONTROL2 (Web MIDI + Web Audio API)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.1.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.7",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "@types/webmidi": "2.0.10",
+    "typescript": "5.7.3"
+  }
+}
